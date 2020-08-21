@@ -118,9 +118,6 @@ function buildCharts(sample){
     ];
   var layout = {
     title: "Times washing belly button per week",
-    width: 600,
-    height: 300,
-    margin: { t: 0, b: 0 }
     };
   Plotly.newPlot('gauge', gaugeData, layout)
   });
