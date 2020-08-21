@@ -112,14 +112,13 @@ function buildCharts(sample){
         gauge: {
           axis:{range: [0,9]},
         },
-        mode : 'gauge'
+        mode : 'gauge+number',
+        title: { text: "Times washing belly button per week" }
 
       }
     ];
-  var layout = {
-    title: "Times washing belly button per week",
-    };
-  Plotly.newPlot('gauge', gaugeData, layout)
+    var layout = { width: 600, height: 500, margin: { t: 0, b: 0 } };
+    Plotly.newPlot('gauge', gaugeData, layout)
   });
 }
 window.onload - optionChanged(940);
