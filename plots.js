@@ -117,6 +117,7 @@ function buildCharts(sample){
       }
     ];
   var layout = {
+    title: "Times washing belly button per week",
     width: 600,
     height: 450,
     margin: { t: 0, b: 0 }
