@@ -112,7 +112,7 @@ function buildCharts(sample){
         gauge: {
           axis:{range: [0,9]},
         },
-        mode : 'gauge+number',
+        mode : 'gauge',
         title: { text: "Times washing belly button per week" }
 
       }
